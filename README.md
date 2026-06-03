@@ -1,2 +1,2 @@
 # datascience_playground
-project end-to-end data-science
+projects end-to-end data-science

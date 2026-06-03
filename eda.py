@@ -48,14 +48,6 @@ print(dias)
 print(percentual)
 """
 
-"""
-df = pd.read_csv(r'hospital_readmissions.csv')
-dias = df.groupby('time_in_hospital')['readmitted'].value_counts().unstack().fillna(0)
-percentual = dias.div(dias.sum(axis=1), axis=0) * 100
-print(dias)
-print(percentual)
-"""
-
 """hipótese 2: Pacientes com histórico de internação anteriores possuem maior probabilidade de readmissão.
 Resultado observado: - Foi identificada uma forte relação positiva entre o número de internações prévias e a taxa de readmissão.
 - Pacientes sem histórico de internação apresentaram taxa de readmissão de aproximadamente 40%.

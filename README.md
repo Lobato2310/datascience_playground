@@ -95,3 +95,19 @@ Esses fatores podem ser utilizados como indicadores de atenção para identifica
 Embora o modelo não tenha como objetivo substituir a avaliação clínica, ele pode atuar como uma ferramenta de apoio para equipes médicas e gestores hospitalares, auxiliando na identificação antecipada de pacientes com maior risco de retorno ao hospital.
 
 Na prática, soluções desse tipo podem contribuir para uma melhor gestão de recursos, redução de custos associados a readmissões e melhoria do acompanhamento dos pacientes após a internação.
+
+
+## Como executar localmente
+
+1. Clone o repositório
+   git clone https://github.com/seu-usuario/hospital-readmission-prediction.git
+
+2. Crie e ative um ambiente virtual
+   python -m venv venv
+   venv\Scripts\activate
+
+3. Instale as dependências
+   pip install -r requirements.txt
+
+4. Execute a aplicação
+   streamlit run app/streamlit_app.py

@@ -100,7 +100,7 @@ Na prática, soluções desse tipo podem contribuir para uma melhor gestão de r
 ## Como executar localmente
 
 1. Clone o repositório
-   git clone https://github.com/seu-usuario/hospital-readmission-prediction.git
+   git clone [https://github.com/Lobato2310/datascience_playground.git]
 
 2. Crie e ative um ambiente virtual
    python -m venv venv

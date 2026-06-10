@@ -50,19 +50,16 @@ if previsao:
         'diabetes_med': ['no']
     })
         
-    st.write(entrada)
-
+        
     resultado = pipeline.predict(entrada)
-    if resultado[0] == 'yes':
-        st.error(" Alto risco de readmissão hospitalar")
-    else:
-        st.success("Baixo risco de readmissão hospitalar")
-        
-    probabilidade = pipeline.predict_proba(entrada)
-        
-    risco = probabilidade[0][1]
+       
+    st.write(resultado)
 
-    st.metric(
-        label="Probabilidade de Readmissão",
-        value=f"{risco:.1%}"
-    )
+    probabilidade = pipeline.predict_proba(entrada)
+    
+    
+    st.write("Classes do modelo:")
+    st.write(pipeline.classes_)
+    
+    st.write("Probabilidades:")
+    st.write(probabilidade)

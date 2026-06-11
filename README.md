@@ -111,3 +111,7 @@ Na prática, soluções desse tipo podem contribuir para uma melhor gestão de r
 
 4. Execute a aplicação
    streamlit run app/streamlit_app.py
+
+   ## Opção mais fácil e direta para executar
+   Link do App no Streamlit: https://hospital-readmission-prediction-app.streamlit.app/
+   
